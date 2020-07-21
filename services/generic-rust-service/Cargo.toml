@@ -1,0 +1,7 @@
+[package]
+name = "generic-rust-service"
+version = "0.1.0"
+authors = ["sam bacha <sam@freighttrust.com>"]
+
+[dependencies]
+smart_rust_library = { path = "../../bases/fancy-rust/smart_rust_library" }

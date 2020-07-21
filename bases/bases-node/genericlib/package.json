@@ -1,0 +1,7 @@
+{
+  "name": "@freight-trust/generic",
+  "version": "0.1.0",
+  "author": "corporate <ops@freighttrust.com>",
+  "license": "MIT",
+  "main": "src/index.js"
+}
