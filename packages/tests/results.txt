@@ -1,0 +1,113 @@
+[
+    {
+        "Id": "sha256:908386f8c79ece2fd46140072384694f1528eeec8099e4cbc59c94f8e2feed08",
+        "RepoTags": [],
+        "RepoDigests": [],
+        "Parent": "sha256:d4cc4f2936405dfa2a5be5e12b7a821fe35c199fb90ab38262293f02560d181f",
+        "Comment": "",
+        "Created": "2020-07-29T11:58:26.033686233Z",
+        "Container": "79fb5c7f3d75180c5849bb5a236bc53dad130cb810f5dccf0bac688d287bdf29",
+        "ContainerConfig": {
+            "Hostname": "79fb5c7f3d75",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US:en",
+                "LC_ALL=en_US.UTF-8"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "ENTRYPOINT [\"/sleep.sh\"]"
+            ],
+            "Image": "sha256:d4cc4f2936405dfa2a5be5e12b7a821fe35c199fb90ab38262293f02560d181f",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/sleep.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "org.label-schema.build-date": "",
+                "org.label-schema.description": "Secure Build",
+                "org.label-schema.name": "Freight Trust Containers",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.url": "https://docker.freighttrust.com/",
+                "org.label-schema.vcs-ref": "",
+                "org.label-schema.vcs-url": "https://github.com/freight-trust/action-docker.git",
+                "org.label-schema.vendor": "Freight Trust & Clearing",
+                "org.label-schema.version": ""
+            }
+        },
+        "DockerVersion": "19.03.12",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US:en",
+                "LC_ALL=en_US.UTF-8"
+            ],
+            "Cmd": null,
+            "Image": "sha256:d4cc4f2936405dfa2a5be5e12b7a821fe35c199fb90ab38262293f02560d181f",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/sleep.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "org.label-schema.build-date": "",
+                "org.label-schema.description": "Secure Build",
+                "org.label-schema.name": "Freight Trust Containers",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.url": "https://docker.freighttrust.com/",
+                "org.label-schema.vcs-ref": "",
+                "org.label-schema.vcs-url": "https://github.com/freight-trust/action-docker.git",
+                "org.label-schema.vendor": "Freight Trust & Clearing",
+                "org.label-schema.version": ""
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 5546327,
+        "VirtualSize": 5546327,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/63e1e3d408205b86f1708ee95cbd630847babdb29309d09ddf6c166f2cbdf6bd/diff",
+                "MergedDir": "/var/lib/docker/overlay2/6a5766cdb9afc55f36d31ada985c935b665ed095d84c46604c1ac097ac0c8ce8/merged",
+                "UpperDir": "/var/lib/docker/overlay2/6a5766cdb9afc55f36d31ada985c935b665ed095d84c46604c1ac097ac0c8ce8/diff",
+                "WorkDir": "/var/lib/docker/overlay2/6a5766cdb9afc55f36d31ada985c935b665ed095d84c46604c1ac097ac0c8ce8/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:89ae5c4ee501a09c879f5b58474003539ab3bb978a553af2a4a6a7de248b5740",
+                "sha256:1ee9c0c662cdfda6717704b448b303098220b64c232b50f545812904cf3d4e22"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
