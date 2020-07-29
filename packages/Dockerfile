@@ -8,14 +8,18 @@ ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
 #
-# Pull Zulu OpenJDK binaries from official repository:
+# BLANK
 #
-RUN rpm --import http://repos.azulsystems.com/RPM-GPG-KEY-azulsystems && \
-    curl -o /etc/yum.repos.d/zulu.repo http://repos.azulsystems.com/rhel/zulu.repo && \
-    yum -q -y update && \
-    yum -q -y upgrade && \
-    yum -q -y install zulu-11-11.39+15 && \
-    yum clean all && \
-    rm -rf /var/cache/yum
 
-ENV JAVA_HOME=/usr/lib/jvm/zulu-11
+ARG BUILD_DATE
+ARG VCS_REF
+ARG VERSION
+LABEL org.label-schema.build-date=$BUILD_DATE \
+      org.label-schema.name="Freight Trust Containers" \
+      org.label-schema.description="Secure Build" \
+      org.label-schema.url="https://docker.freighttrust.com/" \
+      org.label-schema.vcs-ref=$VCS_REF \
+      org.label-schema.vcs-url="https://github.com/freight-trust/action-docker.git" \
+      org.label-schema.vendor="Freight Trust & Clearing" \
+      org.label-schema.version=$VERSION \
+      org.label-schema.schema-version="1.0"
