@@ -1,6 +1,6 @@
-const { getCool, getVersion } = require('./generic');
+const { getCool, getVersion } = require("./generic");
 
 module.exports = {
   getGeneric,
-  getVersion
-}
+  getVersion,
+};
