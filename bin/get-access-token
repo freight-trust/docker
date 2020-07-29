@@ -1,0 +1,15 @@
+#!/bin/sh
+set -e
+
+app_id=${1:VAR}
+app_key=${2:-$HOME/.private-key.pem}
+installation_id=${3:-58920}
+
+jwt=$(./bin/get-jwt-token "$app_id" "$app_key")
+
+# https://developer.github.com/apps/building-github-apps/authentication-options-for-github-apps/#authenticating-as-an-installation
+curl --silent -X POST \
+  -H "Authorization: Bearer $jwt" \
+  -H "Accept: application/vnd.github.machine-man-preview+json" \
+  "https://api.github.com/installations/$installation_id/access_tokens" |
+  jq --raw-output '.token // .message'

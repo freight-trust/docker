@@ -1,0 +1,9 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "prettier": "2.0.5",
+    "release-it": "^13.6.6"
+  }
+}

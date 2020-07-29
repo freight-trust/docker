@@ -1,0 +1,30 @@
+{
+  "name": "zulu-alpine",
+  "version": "11.0.7",
+  "description": "ZuluJDK for Alpine",
+  "keywords": [
+    "zulu",
+    "jdk",
+    "alpine",
+    "docker",
+    "java"
+  ],
+  "author": "sam <sam@freighttrust.com>",
+  "homepage": "https://github.com/freight-trust/docker",
+  "license": "Apache-2.0",
+  "main": "Dockerfile",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freight-trust/docker/packages/zulu-alpine"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}

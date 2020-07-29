@@ -1,0 +1,12 @@
+*.zip
+*.pem
+*.key
+*.cert
+*.crt
+*.rsa
+*.keys
+*.keystore
+*.tar
+*.tar.gz
+*.tf
+node_modules
